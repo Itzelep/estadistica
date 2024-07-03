@@ -24,6 +24,9 @@ jobs:
           python -m pip install -Uq scikit-learn
           python -m pip install -Uq shapely
           python -m pip install -Uq pyproj
+          python -m pip install -Uq pandas
+          python -m pip install -Uq numpy
+          python -m pip install -Uq seaborn
       - name: Test the package
         shell: bash
         run: |
